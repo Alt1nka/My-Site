@@ -1,0 +1,44 @@
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+   
+   .item {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+   }
+   
+   .item img {
+    max-width: 100%;
+   }
+   
+   .item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+   }
+   
+   .item p {
+    margin-top: 10px;
+    font-size: 14px;
+   }
+   
+   .item .price {
+    font-weight: bold;
+   }
+   
+   .item button {
+    margin-top: 10px;
+    background-color: #a3659a;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+   }
+   
+   .item button:hover {
+    background-color: #3e8a87;
+   }
